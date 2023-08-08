@@ -1,4 +1,3 @@
-# My first project
+# my first project
 
-learning how to use git and github
-
+trying to learn git and github
