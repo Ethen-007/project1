@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+nav {
+    background-color: lightpink;
+
+}
+
+.Menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.Menu li{
+    margin:0 10px;
+}
+
+.Menu li a{
+    color: black;
+    text-decoration: none;
+    padding:10px;
+}
+
+.drop{
+    position:relative;
+}
+
+.dropping{
+    list-style: none;
+    display: none;
+    position:absolute;
+    min-width: 150px;
+    background-color: lightgoldenrodyellow;
+
+}
+
+.drop:hover .dropping{
+    display: block;
+}
+
+.Swiss_des{
+    font-size:20px;
+    font-style: italic;
+}
