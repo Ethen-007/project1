@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:repeat(5,1fr);
+    grid-auto-rows:minmax(30px,auto);
+    border: 2px solid rgb(216, 232, 39);
+    height: 100%;
+}
+
+
+.wrapper > div{
+    border:2px solid green;
+    
+}
+
+.maroon{
+    grid-column: 1/12;
+    background-color: rgb(128, 4, 4);
+}
+.brown{
+    background-color: rgb(238, 203, 157);
+}
+.teal{
+    background-color: rgb(7, 156, 156);
+}
+.orange{
+    grid-column: 3/13;
+    background-color: rgb(233, 158, 18);
+}
+
+.beige{
+    background-color: rgb(221, 221, 189);
+}
+.yellow{
+    background-color: rgb(244, 244, 63);
+}
+
+.pink{
+    background-color: rgb(244, 196, 204);
+}
+.purple{
+    grid-column:1/3;
+    background-color: rgb(208, 14, 208);
+    
+}
+
+.cyan{
+   grid-column:3/7;
+   background-color: rgb(35, 248, 248);
+    
+}
+.lime{
+    grid-column: 7/13;
+    background-color: rgb(48, 249, 48);
+}
+
+.lavender{
+    grid-column:1/6;
+    background-color: rgb(207, 207, 247);
+}
+.apricot{
+    grid-column: 6/13;
+    background-color: #fbceb1;
+}
+
+.three{
+    grid-column: 1/13;
+    display: flex;
+    justify-content: center;
+}
+
+.three > div{
+    border:2px solid black;
+    flex:1;
+}
