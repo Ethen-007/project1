@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+.Landify-Header
+{
+    width:100vw;
+    height:100vh;
+    background:url(landify_images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    max-width:1440px;
+    height:72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:auto;
+    padding:0 20px;
+}
+
+.navbar-contents{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    border:2px solid black;
+}
+
+
+.navbar-text{
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+    font-size:14px;
+    line-height: 20px;
+    color:#18191f;
+    text-decoration: none;
+}
+
+.nav-link{
+    list-style: none;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+
+
